@@ -43,6 +43,7 @@ There are 5 steps:
 3.	Extract the mean and standard deviation column names and data.
 4.	Process the data. There are two parts processing test and train data respectively.
 5.	Merge data set.
+
 NOTE: the code doesn't requiere to load extra libraries 
 
 
