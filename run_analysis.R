@@ -41,7 +41,7 @@ data <- cbind(merged_subject, merged_y, merged_x)
 # Apply mean function to dataset using aggregate function
 tidy_data<-aggregate(.~subject+Activity_Label,data=data[,-2],mean)
 
-write.table(tidy_data, file = "~/Downloads/tidy_data.txt", row.name=FALSE)
+write.table(tidy_data, file = "~/Downloads/tidy_data.txt", row.name=FALSE, sep=";")
 
 
 
