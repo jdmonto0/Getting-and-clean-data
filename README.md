@@ -25,7 +25,7 @@ The main objetive is to create one R script called run_analysis.R that does the 
 The CodeBook.md file explains the transformations performed and the resulting data and variables.
 
 
-### tidy_data.txt
+### tidy_data.csv
 
 It is the final result
 
